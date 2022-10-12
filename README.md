@@ -1,2 +1,2 @@
 # Armirate Personal Website
-An personal website (no edit for now)
+An personal website (in progress)
