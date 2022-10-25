@@ -60,4 +60,83 @@ nav ul li a{
     font-size: 1.8rem;
     font-family: 'Gugi', cursive;
     text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* Home Class section */
+
+.home {
+    background-color: aquamarine;
+}
+
+.home div{
+    margin: 5%;
+}
+
+
+
+/* About Class section */
+
+.about {
+    background-color: aliceblue;
+}
+
+.about div {
+    margin: 5%;
+}
+
+
+
+/* Experience Class section */
+
+.experience {
+    background-color: aquamarine;
+}
+
+.experience div {
+    margin: 5%;
+}
+
+
+
+/* Involvement Class section */
+
+.involvement {
+    background-color: aliceblue;
+}
+
+.involvement div {
+    margin: 5%;
+}
+
+
+
+/* Project CLass secionn */
+
+.project {
+    background-color: aquamarine;
+}
+
+.project div {
+    margin: 5%;
+}
+
+
+
+/* Contact Class section */
+
+.contact {
+    background-color: white;
+}
+
+.contact div {
+    margin: 5%;
+}
+
+.contact img{
+    width: 50px;
+    margin: 10px;
 }
