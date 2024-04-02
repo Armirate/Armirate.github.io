@@ -1,0 +1,74 @@
+/*
+    Color Pallete Customization:
+    - #343945
+    - #53535A
+    - #8C6862
+    - #C5A392
+    - #FBC8BD
+
+    Font used:
+    - Helvetica
+    - 
+*/
+
+/* General CSS formats for each HTML element */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    scroll-behavior: smooth;
+    background-color: #343945;
+}
+
+section {
+    width: 100%;
+    display: flex;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+
+nav {
+    height: 64px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FBC8BD;
+}
+
+#title {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #FBC8BD;
+    font-weight: 700;
+}
