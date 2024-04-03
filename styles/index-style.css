@@ -42,6 +42,8 @@ p {
 }
 
 
+/* Navigation bar */
+
 nav {
     height: 64px;
     width: 100%;
@@ -71,4 +73,42 @@ nav ul li a {
     text-decoration: none;
     color: #FBC8BD;
     font-weight: 700;
+}
+
+
+/* Home section */
+
+#home {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* Experience section */
+
+#experience {
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+
+/* Project section */
+
+#project {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* Content section */
+
+#contact {
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact-link a {
+    align-items: center;
+    justify-content: space-between;
 }
