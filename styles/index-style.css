@@ -19,26 +19,35 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
+    color: #FFF;
     scroll-behavior: smooth;
     background-color: #343945;
 }
 
+.container {
+    margin: 20px;
+    padding: 20px 100px;
+}
+
 section {
-    width: 100%;
     display: flex;
 }
 
 h1 {
-    font-size: 3rem;
-    font-weight: bolder;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 
 p {
     font-size: 1.2rem;
+}
+
+a {
+    color: #C5A392;
 }
 
 
@@ -59,11 +68,17 @@ nav ul {
 }
 
 nav ul li {
-    margin: 30px;
+    margin: 10px;
+    padding: 10px;
 }
 
 nav ul li a {
     text-decoration: none;
+    color: #FBC8BD;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
     color: #FBC8BD;
 }
 
@@ -78,37 +93,56 @@ nav ul li a {
 
 /* Home section */
 
-#home {
-    margin: 10px;
-    padding: 10px;
+#about-me {
+    padding: 20px;
 }
 
+#contact {
+    padding: 20px;
+}
+
+.contact-link {
+    margin: 20px;
+    align-items: center;
+}
+
+.contact-link a {
+    padding: 20px;
+}
+
+.contact-link a img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
 
 /* Experience section */
 
 #experience {
     margin: 10px;
     padding: 10px;
-    
 }
 
 
-/* Project section */
+/* Resources section */
 
-#project {
+#resource {
     margin: 10px;
     padding: 10px;
 }
 
 
-/* Content section */
+/* More section */
 
-#contact {
+#more {
     margin: 10px;
     padding: 10px;
 }
 
-.contact-link a {
+/* footer section */
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
 }

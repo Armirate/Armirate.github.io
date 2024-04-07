@@ -6,8 +6,7 @@ An personal website containing my basic bio, resume, working experience, involve
 
 - [ ] Homepage (In progress)
   - [ ] Basic Bio (In progress)
-  - [ ] Working Experience (Incompleted)
-  - [ ] Involvements (Incompleted)
-  - [ ] Projects (Incompleted)
-  - [ ] Contact Information (Incompleted)
+  - [ ] Experience (Incompleted)
+  - [ ] Resource (Incompleted)
+  - [ ] More (Incompleted)
 - [ ] Resume (Incompleted)
