@@ -93,6 +93,11 @@ nav ul li a:hover {
 
 /* Home section */
 
+#tenor-gif-embed {
+    max-width: 80%;
+    height: auto;
+}
+
 #about-me {
     padding: 20px;
 }
@@ -114,6 +119,11 @@ nav ul li a:hover {
     width: 50px;
     height: 50px;
     object-fit: cover;
+}
+
+.resume {
+    margin: 10px;
+    padding: 10px;
 }
 
 /* Experience section */
