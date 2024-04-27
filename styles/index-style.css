@@ -32,8 +32,9 @@
 }
 
 .container {
-    margin: 20px;
-    padding: 20px 100px;
+    margin: 20px auto;
+    padding: 20px auto;
+    max-width: 1000px;
 }
 
 section {
@@ -43,14 +44,17 @@ section {
 h1 {
     font-size: 2rem;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-size: 1.7rem;
+    margin-bottom: 20px;
 }
 
 p {
     font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
 a {
@@ -63,10 +67,14 @@ a {
 nav {
     height: 64px;
     width: 100%;
-    padding: 15px;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+nav #title {
+    margin: 20px;
 }
 
 nav ul {
@@ -75,8 +83,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
 }
 
 nav ul li a {
@@ -97,64 +104,14 @@ nav ul li a:hover {
     font-weight: 700;
 }
 
-
-/* Home section */
-
-#tenor-gif-embed {
-    max-width: 80%;
-    height: auto;
+hr {
+    margin: 0 20px;
 }
 
-#about-me {
-    padding: 20px;
+.heading {
+    margin: 1rem 0;
 }
 
-#contact {
-    padding: 20px;
-}
-
-.contact-link {
-    margin: 20px;
-    align-items: center;
-}
-
-.contact-link a {
-    padding: 20px;
-}
-
-.contact-link a img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-}
-
-.resume {
-    margin: 10px;
-    padding: 10px;
-}
-
-/* Experience section */
-
-#experience {
-    margin: 10px;
-    padding: 10px;
-}
-
-
-/* Resources section */
-
-#resource {
-    margin: 10px;
-    padding: 10px;
-}
-
-
-/* More section */
-
-#more {
-    margin: 10px;
-    padding: 10px;
-}
 
 /* footer section */
 
@@ -162,4 +119,69 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Home section */
+
+.tenor-gif-embed {
+    margin: 20px;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+#about-me {
+    padding: 20px;
+}
+
+#contact {
+    margin: 0px 20px 0;
+}
+
+#contact-link {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 0;
+}
+
+#contant-link a {
+    display: block;
+}
+
+#contact-link a img {
+    height: 50px;
+    margin: 0 20px 0;
+}
+
+#resume {
+    margin: 20px;
+}
+
+/* Experience section */
+
+#experience {
+    margin: 20px;
+}
+
+
+/* Resources section */
+
+#resource {
+    margin: 20px;
+}
+
+
+/* More section */
+
+#more {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#more ul {
+    margin-left: 20px;
+}
+
+#more ul li {
+    margin: 10px;
 }
