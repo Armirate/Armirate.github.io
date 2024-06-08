@@ -20,6 +20,10 @@
 
 /* General CSS formats for each HTML element */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -71,14 +75,6 @@ a {
     align-items: center;
     justify-content: space-between;
     z-index: 1;
-    /*
-    height: 64px;
-    width: 100%;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    */
 }
 
 .index-link {
@@ -101,7 +97,6 @@ a {
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    transition: display 0.3s ease;
 }
 
 .nav-item {
@@ -126,6 +121,7 @@ a {
 .menu-icon {
     display: none;
     flex-direction: column;
+    padding: 10px;
     cursor: pointer;
 }
 
@@ -140,7 +136,6 @@ a {
 @media (max-width: 768px) {
     .menu-icon {
         display: flex;
-        
     }
     
     .nav-list {
@@ -177,16 +172,14 @@ hr {
 
 /* footer section */
 
+.content-footer {
+    text-align: center;
+}
+
 .nav-footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.tenor-gif-embed {
-    margin: 20px;
-    max-width: 1000px;
-    justify-content: center;
 }
 
 /* Home/Index section */
@@ -260,11 +253,15 @@ hr {
 }
 
 
+
 /* Resources section */
 
 #resource {
     margin: 20px;
 }
+
+/* About me section */
+
 
 
 /* More section */
