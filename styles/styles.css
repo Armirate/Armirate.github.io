@@ -1,3 +1,15 @@
+/*
+    Set of Color Palette
+    - F6F2F4
+    - 39D570
+    - 5BA9AF
+    - 7A6E58
+    - 22202D
+
+    Font used:
+    - Helvetica
+*/
+
 * {
     box-sizing: border-box;
 }
@@ -5,20 +17,20 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
-    color: #FFFFFF;
+    font-family: Calibri, Verdana, Sources sans, Open sans, Consolas;
+    font-weight: 400;
+    color: #F6F2F4;
     scroll-behavior: smooth;
     background-color: #22202D;
 }
 
 .container {
-    margin: 20px auto;
-    max-width: 1000px;
+    margin: 0px auto;
+    max-width: 500px;
 }
 
 section {
-    margin: 50px 20px;
+    margin: 0px 10px;
     display: block;
 }
 
@@ -39,19 +51,77 @@ p {
 }
 
 a {
-    color: #FBC8BD;
+    color: #73e8ff;
+    text-decoration: none;
+}
+
+hr {
+    margin: 0 10px;
 }
 
 /** Top Navigation Bar **/
 
 .navbar {
     padding: 10px 20px;
+    display: flex;
+    justify-content: center;
 }
 
+.nav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+
+/* Drop-down menu toggle will be added later
 #menu-toggle {
     display: none;
 }
-
 .menu-icon {
     display: none;
+}*/
+
+
+/* Link Section */
+.external-link {
+    text-align: center;    
+}
+
+
+/** Footer Section **/
+
+.content-footer {
+    text-align: center;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Contact Link Section */
+
+.contact-link {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-link a {
+    margin: 0 10px;
+    padding: 10px;
+    transition: all ease 200ms;
+    border-radius: 10px;
+}
+
+.contact-link a:hover {
+    background-color: #40818e; 
+}
+
+.contact-link a img {
+    max-height: 30px;
+}
+
+.signed {
+    margin: 0 15px;
 }

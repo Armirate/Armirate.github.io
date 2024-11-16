@@ -1,12 +1,11 @@
 # Personal Website
 
-An personal website containing my basic bio, resume, working experience, involvements, projects, and contact information.
+An personal website containing my basic bio, projects, resume, obsidian, and contact information.
 
 ## Progress
 
 - [ ] Homepage (In progress)
-  - [ ] Basic Bio (In progress)
-  - [ ] Experience (Incompleted)
-  - [ ] Resource (Incompleted)
-  - [ ] More (Incompleted)
-- [ ] Resume (Incompleted)
+  - [X] Basic Bio (Completed)
+  - [ ] Projects (In progress)
+  - [x] Footer (Completed)
+- [x] Resume (Completed)
