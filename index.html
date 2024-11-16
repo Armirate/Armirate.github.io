@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Armirate</title>
-    <link rel="stylesheet" type="text/css" href="./styles/index-style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
     <link rel="script" href="./scripts/index-script.js">
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 </head>
@@ -23,9 +23,9 @@
                 </label>
                 
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="./experience.html" class="nav-link">Experience</a></li>
-                    <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#exp" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#about-me" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -36,29 +36,64 @@
                     <h1>About me</h1>
                     <p>
                         Hi, my name is Sorawit Mattra. I prefer to be called 'Arm'. I am currently a senior, studying Computer Engineer in Pennsylvania State University.
-                        I am eager to learn more of Computer and Electronic devices. Also, I am working as Reserach Assistant in the department of Industrial and Manufacturing Engineering since January 2024.
                     </p>
                     <p>
                         As the knowledge is vast, I am eager to learn new things related to Computer and Network. During leisure time, I listen to electronic, country, and pop music. I jam with my favorite songs with my companion - acoustic guitar.
                     </p>
                 </div>
             </section>
-
-            <section id="contact">
-                <h1>Contact</h1>
+            
+            <!-- Thinking of "How should I include the experience in the first-page"
+            
+            <section id="exp">
+                <section class="heading">
+                    <h1>Experience</h1>
+                </section>
+    
+                <section class="exp-card">
+                    <div class="exp-card-heading">
+                        <h3>Research Assistant</h3>
+                        <h5>Industrial and Manufacturing Depeartment at Pennsylvania State University</h5>
+                        <h5>Jan 2024 - Present</h5>
+                    </div>
+                    <div class="exp-card-bullet">
+                        <ul class="exp-ul">
+                            <li>Develop the Virtual Reality (VR) Factory to facilitate interactive learning environment for Industrial Engineering students</li>
+                            <li>Augment new OpenAI functionalities int</li>
+                        </ul>
+                    </div>
+                </section>
+    
+                <section class="exp-card">
+                    <div class="exp-card-heading">
+                        <h3>Unity AR Developer</h3>
+                        <h5>College of at Pennsylvania State University</h5>
+                        <h5>Aug 2023 - Dec 2023</h5>
+                    </div>
+                    <div class="exp-card-bullet">
+                        <ul class="exp-ul">
+                            <li>Developed cross-platform application built on Unity to teach nursing student on inserting IV</li>
+                            <li>Assisted in implementing MQTT server-client connection between Raspberry Pi, Unity AR application, and Web Application</li>
+                        </ul>
+                    </div>
+                </section>
+    
+                <section class="exp-card">
+                    <div class="exp-card-heading">
+                        <h3>Programmer</h3>
+                        <h5>St. Stephen's Episcopal School, Austin, TX</h5>
+                        <h5>Aug 2019 - Dec 2020</h5>
+                    </div>
+                    <div class="exp-card-bullet">
+                        <ul class="exp-ul">
+                            <li>Implemented self-driving autonomous functions using an Arduino Ultrasonic Sensor.</li>
+                            <li>Developed user-controlled functions using an Accelerometer App connected via Bluetooth to the modified RC car.</li>
+                        </ul>
+                    </div>
+                </section>
             </section>
-
-            <section id="contact-link">
-                <a href="mailto:sorawit.mattra@gmail.com">
-                    <img src="./images/icons-email.png" alt="Mail icon linked to Sorawit's Email">
-                </a>
-                <a href="https://www.linkedin.com/in/sorawit-mattra/">
-                    <img src="./images/in-white-128-2x.png" alt="Sorawit LinkedIn Profile">
-                </a>
-                <a href="https://github.com/Armirate">
-                    <img src="./images/github-mark-white.png" alt="Armirate GitHub Profile">
-                </a>
-            </section>
+            
+            -->
 
             <section id="resume">
                 <div>
@@ -66,7 +101,6 @@
                     Check out my <a href="./attachments/sorawit-resume.pdf"><button class="button-resume">Resume</button></a>
                 </div>
             </section>
-
         </main>
 
         <hr>
@@ -76,7 +110,22 @@
                 <p>&lt3</p>
             </div>
             <nav class="nav-footer">
-                Developed by Sorawit Mattra | 2024
+                <div id="contact">
+                    <div id="contact-link">
+                        <a href="mailto:sorawit.mattra@gmail.com">
+                            <img src="./images/icons-email.png" alt="Mail icon linked to Sorawit's Email">
+                        </a>
+                        <a href="https://www.linkedin.com/in/sorawit-mattra/">
+                            <img src="./images/in-white-128-2x.png" alt="Sorawit LinkedIn Profile">
+                        </a>
+                        <a href="https://github.com/Armirate">
+                            <img src="./images/github-mark-white.png" alt="Armirate GitHub Profile">
+                        </a>
+                    </div>
+                </div>
+                <div class="signed">
+                    Developed by Armirate | 2024
+                </div>
             </nav>
         </footer>
 

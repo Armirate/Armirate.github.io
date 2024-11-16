@@ -42,6 +42,7 @@ body {
 }
 
 section {
+    margin: 50px 20px;
     display: flex;
 }
 
@@ -65,24 +66,19 @@ a {
     color: #FBC8BD;
 }
 
-/* Navigation bar */
+/** Navigation bar **/
 
 .navbar {
     background-color: #343945;
-    position: relative;
     padding: 10px 20px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1;
 }
 
 .index-link {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 10px 15px;
-    margin-right: auto;
+    padding: 10px 10px;
 }
 
 .index-link:hover {
@@ -95,23 +91,22 @@ a {
     margin: 0;
     padding: 0;
     display: flex;
-    width: 100%;
     justify-content: flex-end;
-}
-
-.nav-item {
-    margin-left: 20px;
+    width: 100%;
 }
 
 .nav-link {
     text-decoration: none;
-    padding: 10px 15px;
-    display: block;
+    padding: 10px 20px;
 }
 
 .nav-link:hover {
     background-color: #575757;
     border-radius: 5px;
+}
+
+.nav-item {
+    margin: 10px 20px;
 }
 
 #menu-toggle {
@@ -134,6 +129,11 @@ a {
 }
 
 @media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .menu-icon {
         display: flex;
     }
@@ -144,7 +144,7 @@ a {
         width: 100%;
         position: absolute;
         top: 50px;
-        left: 0;
+        right: 0;
         background-color: #343945;
     }
 
@@ -165,47 +165,22 @@ hr {
     margin: 0 20px;
 }
 
-.heading {
-    margin: 1rem 0;
-}
+/** Home/Index section **/
 
-
-/* footer section */
-
-.content-footer {
-    text-align: center;
-}
-
-.nav-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Home/Index section */
+/* About me */
 
 #about-me {
-    padding: 20px;
+    padding: 0 20px;
 }
 
-#contact {
-    margin: 0px 20px 0;
-}
+/* Experience section */
 
-#contact-link {
-    display: flex;
-    justify-content: center;
-    margin: 10px 10px 0;
-}
-
-#contant-link a {
+#exp {
+    margin: 20px;
     display: block;
 }
 
-#contact-link a img {
-    height: 50px;
-    margin: 0 20px 0;
-}
+/* Resume Section */
 
 #resume {
     margin: 20px;
@@ -246,36 +221,37 @@ hr {
   }
 }
 
-/* Experience section */
+/** footer section **/
 
-#experience {
-    margin: 20px;
+/* nav-footer section */
+
+.content-footer {
+    text-align: center;
 }
 
-
-
-/* Resources section */
-
-#resource {
-    margin: 20px;
-}
-
-/* About me section */
-
-
-
-/* More section */
-
-#more {
-    margin: 20px;
+.nav-footer {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#more ul {
-    margin-left: 20px;
+/* contact Section */
+
+#contact {
+    margin: 0px 20px 0px;
 }
 
-#more ul li {
-    margin: 10px;
+#contact-link {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 0;
+}
+
+#contant-link a {
+    display: block;
+}
+
+#contact-link a img {
+    height: 50px;
+    margin: 0 20px 0;
 }
